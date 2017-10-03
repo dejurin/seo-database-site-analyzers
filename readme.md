@@ -1,7 +1,9 @@
 #List
 
--- {HOST} - example.com
--- (SCHEME) - http
+| Plugin | README |
+| ------ | ------ |
+| {HOST} | example.com |
+| {SCHEME} | http |
 
 * https://a.pr-cy.ru/{HOST}
 * https://www.cy-pr.com/a/{HOST}
