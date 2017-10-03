@@ -56,7 +56,6 @@
 * http://{HOST}.yompy.com
 * http://downforeveryoneorjustme.com/{HOST}
 * http://hqindex.org/{HOST}
-* http://statsie.com/{HOST}
 * http://{HOST}.statout.com
 * http://web.archive.org/web/*/{HOST}
 * http://www.infositeshow.com/sites/{HOST}
