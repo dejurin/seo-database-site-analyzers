@@ -4,6 +4,8 @@
 | ------ | ------ |
 | {HOST} | example.com |
 | {SCHEME} | http |
+
+```sh
 * https://a.pr-cy.ru/{HOST}
 * https://www.cy-pr.com/a/{HOST}
 * https://be1.ru/stat/{HOST}
@@ -71,3 +73,4 @@
 * https://www.robtex.com/dns-lookup/{HOST}
 * http://solosub.com/sub/{HOST}
 * http://theamericanmuslim.org/tam.php?URL={HOST}
+```
