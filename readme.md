@@ -1,5 +1,7 @@
 # List
 
+| pattern | value |
+| ------ | ------ |
 | {HOST} | example.com |
 | {SCHEME} | http |
 
