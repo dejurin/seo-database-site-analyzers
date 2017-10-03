@@ -69,3 +69,6 @@
 * http://www.whoisentry.com/domain/{HOST}
 * http://dnslookup.fr/{HOST}
 * http://hosts-file.net/?s={HOST}
+* http://mjump.vip2ch.com/{HOST}
+* http://jigsaw.w3.org/css-validator/validator?uri={HOST}
+* https://www.robtex.com/dns-lookup/{HOST}
