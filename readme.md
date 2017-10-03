@@ -1,7 +1,5 @@
-#List
+# List
 
-| Plugin | README |
-| ------ | ------ |
 | {HOST} | example.com |
 | {SCHEME} | http |
 
