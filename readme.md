@@ -4,7 +4,6 @@
 | ------ | ------ |
 | {HOST} | example.com |
 | {SCHEME} | http |
-
 * https://a.pr-cy.ru/{HOST}
 * https://www.cy-pr.com/a/{HOST}
 * https://be1.ru/stat/{HOST}
@@ -36,7 +35,6 @@
 * http://proverim.net/analiz/{HOST}
 * http://moresiteslike.org/alternatives/{HOST}
 * https://www.alexa.com/siteinfo/{HOST}
-* https://builtwith.com/{HOST}
 * http://www.checkdomain.com/cgi-bin/checkdomain.pl?domain={HOST}
 * https://validator.w3.org/nu/?doc={SCHEME}{HOST}
 * http://www.keywordspy.com/research/search.aspx?q={HOST}
@@ -72,3 +70,5 @@
 * http://mjump.vip2ch.com/{HOST}
 * http://jigsaw.w3.org/css-validator/validator?uri={HOST}
 * https://www.robtex.com/dns-lookup/{HOST}
+* http://solosub.com/sub/{HOST}
+* http://theamericanmuslim.org/tam.php?URL={HOST}
