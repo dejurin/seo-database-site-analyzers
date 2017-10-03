@@ -3,7 +3,7 @@
 | pattern | value |
 | ------ | ------ |
 | {HOST} | example.com |
-| {SCHEME} | http |
+| {SCHEME} | http:// |
 
 ```sh
 https://a.pr-cy.ru/{HOST}
