@@ -88,4 +88,6 @@ http://uk1.co.uk/cgi-bin/cart/cart.cgi?typeofsearch=rawwhois&domain={HOST}&serve
 http://www.sitedossier.com/site/{HOST}
 https://semrush.com/info/{HOST}
 http://www.v3whois.com/w/{HOST}
+http://advisor.wmtransfer.com/SiteDetails.aspx?url={HOST}
+https://xtool.ru/trust/?site={HOST}
 ```
