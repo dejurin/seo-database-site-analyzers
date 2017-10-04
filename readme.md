@@ -90,4 +90,9 @@ http://www.mmnt.org/cat/rp/{HOST}
 http://500v.net/site/{HOST}
 https://sitecheck.sucuri.net/results/{HOST}
 http://www.theamericanmuslim.org/tam.php?URL={HOST}
+http://{HOST}.cubestat.com
+http://whois.domaintools.com/{HOST}
+https://who.is/whois/{HOST}
+http://uk1.co.uk/cgi-bin/cart/cart.cgi?typeofsearch=rawwhois&domain={HOST}&server=whois.nic.uk
+http://www.sitedossier.com/site/{HOST}
 ```
