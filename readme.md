@@ -81,4 +81,13 @@ http://jigsaw.w3.org/css-validator/validator?uri={HOST}
 https://www.robtex.com/dns-lookup/{HOST}
 http://solosub.com/sub/{HOST}
 http://theamericanmuslim.org/tam.php?URL={HOST}
+http://www.siteglimpse.com/{HOST}
+https://www.robtex.com/dns-lookup/{HOST}
+https://www.pageinsider.org/{HOST}
+https://www.mywot.com/en/scorecard/{HOST}
+http://www.myip.net/{HOST}
+http://www.mmnt.org/cat/rp/{HOST}
+http://500v.net/site/{HOST}
+https://sitecheck.sucuri.net/results/{HOST}
+http://www.theamericanmuslim.org/tam.php?URL={HOST}
 ```
