@@ -7,8 +7,8 @@
 # List
 | pattern | value |
 | ------ | ------ |
-| {HOST} | example.com |
-| {SCHEME} | http:// |
+| {HOSTNAME} | example.com |
+| {PROTOCOL} | http:// |
 
 # GOV
 ```sh
