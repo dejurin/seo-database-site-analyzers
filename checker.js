@@ -36,7 +36,7 @@ for(var i = 0; i < lines.length; i++) {
     var _hostname = url.parse(_url).hostname;
     var _protocol = url.parse(_url).protocol;
     var _anchor = _hostname;
-    var link = lines[i].replace("{PROTOCOL}", _protocol + "//").replace("{HOST}", _hostname).replace("{ANCHOR}", _anchor);
+    var link = lines[i].replace("{PROTOCOL}", _protocol + "//").replace("{HOSTNAME}", _hostname).replace("{ANCHOR}", _anchor);
     // console.log("Get: " + link);
     var p = _par(link, _hostname, function(response) {
         if(response[0]) {
