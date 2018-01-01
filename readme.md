@@ -59,10 +59,9 @@ http://kfai.org/sites/default/stream/player.php?url={PROTOCOL}{HOSTNAME}
 http://www.ladan.com.ua/link/go.php?url={PROTOCOL}{HOSTNAME}
 https://www.ibm.com/links/?cc=us&lc=en&prompt=1&url={PROTOCOL}{HOSTNAME}
 http://www.sitedossier.com/site/{HOSTNAME}
-https://www.youtube.com/redirect?q={HOSTNAME}
-{PROTOCOL}{HOSTNAME}.webstatsdomain.org/
+http://{HOSTNAME}.webstatsdomain.org/
 http://viajes.astalaweb.net/Viajes/Marco.asp?dir={PROTOCOL}{HOSTNAME}
-{PROTOCOL}{HOSTNAME}.isdownorblocked.com
+http://{HOSTNAME}.isdownorblocked.com
 http://downforeveryoneorjustme.com/{HOSTNAME}
 https://sec.pn.to/jump.php?{PROTOCOL}{HOSTNAME}
 http://www.yougoo.fr/annuaire?type=web&cx=annuaire&q={HOSTNAME}
