@@ -9,8 +9,9 @@
 | ------ | ------ |
 | {HOST} | example.com |
 | {SCHEME} | http:// |
+
+# // GOV
 ```sh
-// GOV
 http://www.drugoffice.gov.hk/gb/unigb/{HOST}
 http://sc.devb.gov.hk/TuniS/{HOST}
 https://outreach.senate.gov/iqextranet/iqClickTrk.aspx?&cid=quorum_stabenow-iq&redirect={SCHEME}{HOST}
@@ -69,7 +70,10 @@ http://training.fema.gov/emiweb/cgi-shl/goodbye.aspx?url={SCHEME}{HOST}
 http://www.poolsafely.gov/intercept.php?url={SCHEME}{HOST}
 http://www.biometrics.gov/LeavingSite.aspx?url={SCHEME}{HOST}
 http://ptwc.weather.gov/jump.php?site={HOST}
-// OTHER
+http://www.uspto.gov/cgi-bin/exitconf/internet_exitconf.pl?target={HOST}
+```
+# OTHER
+```sh
 https://a.pr-cy.ru/{HOST}
 https://www.cy-pr.com/a/{HOST}
 https://be1.ru/stat/{HOST}
@@ -189,7 +193,6 @@ http://www.wpp.com/annualreports/2007/exitpage.asp?url={SCHEME}{HOST}
 https://www.mywot.com/ru/scorecard/{HOST}
 https://www.youtube.com/redirect?q={HOST}
 http://www.baidu.com/baidu?tn=itlearner&word=domain%3A{HOST}
-http://www.uspto.gov/cgi-bin/exitconf/internet_exitconf.pl?target={HOST}
 http://website.informer.com/{HOST}
 https://44ip.net/{HOST}
 http://www.sogou.com/sogou?rfrom=soso&pid=s.idx&w=site%3A{HOST}
@@ -207,9 +210,12 @@ https://www.anquan.org/seccenter/search/{HOST}
 http://www.deviantart.com/users/outgoing?{HOST}
 http://wayback.archive.org/web/*/{HOST}
 http://www.tinmoi.vn/share/{HOST}
-// EDU
+```
+# EDU
+```sh
 http://www.hudson.edu/frames.php?school=hcsd&url={SCHEME}{HOST}
 http://wber.monroe.edu/site/html/modules.php?op=modload&name=PostWrap&file=index&page={SCHEME}{HOST}
 http://ezproxy.uow.edu.au/login?url={SCHEME}{HOST}
 http://staff.ozarks.edu/redirect.asp?url={SCHEME}{HOST}
+http://www.olelo.hawaii.edu/redirect.php?url={SCHEME}{HOST}
 ```
