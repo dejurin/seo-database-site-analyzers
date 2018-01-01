@@ -1,6 +1,5 @@
-// Node.js
-
 "use strict"
+
 const tinyreq = require("tinyreq"),
     cheerio = require("cheerio"),
     url = require("url"),
@@ -36,7 +35,8 @@ function _par(link, _hostname, callback) {
 for(var i = 0; i < lines.length; i++) {
     var _hostname = url.parse(_url).hostname;
     var _protocol = url.parse(_url).protocol;
-    var link = lines[i].replace("{PROTOCOL}", _protocol + "//").replace("{HOST}", _hostname);
+    var _anchor = _hostname;
+    var link = lines[i].replace("{PROTOCOL}", _protocol + "//").replace("{HOST}", _hostname).replace("{ANCHOR}", _anchor);
     // console.log("Get: " + link);
     var p = _par(link, _hostname, function(response) {
         if(response[0]) {
