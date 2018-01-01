@@ -7,7 +7,6 @@ const tinyreq = require("tinyreq"),
     fs = require('fs'),
     path = require('path'),
     lines = fs.readFileSync(__dirname + '/list.txt', 'utf-8').split('\n').filter(Boolean);
-
 var _url = "http://example.com";
 
 function _par(link, _hostname, callback) {
@@ -22,11 +21,11 @@ function _par(link, _hostname, callback) {
         var msg;
         if($("a").length > 0) {
             $("a").each(function(i, elem) {
-            	if ($(this).attr("href")) {
-					if(url.parse($(this).attr("href")).hostname == _hostname) {
-                    	done = true;
-                	}
-            	}
+                if($(this).attr("href")) {
+                    if(url.parse($(this).attr("href")).hostname == _hostname) {
+                        done = true;
+                    }
+                }
             });
         }
         callback([done, link]);
@@ -34,18 +33,17 @@ function _par(link, _hostname, callback) {
         console.log(err);
     });
 };
-
 for(var i = 0; i < lines.length; i++) {
     var _hostname = url.parse(_url).hostname;
     var _protocol = url.parse(_url).protocol;
     var link = lines[i].replace("{PROTOCOL}", _protocol + "//").replace("{HOST}", _hostname);
     // console.log("Get: " + link);
     var p = _par(link, _hostname, function(response) {
-    	if (response[0]) {
-    		fs.appendFileSync(__dirname + "/output.txt", response[1] + "\n", {
-            	encoding: "utf8"
-        	});
-    	}
-        console.log(((response[0]) ? "+":"-" ) + "\t" + response[1]);
+        if(response[0]) {
+            fs.appendFileSync(__dirname + "/output.txt", response[1] + "\n", {
+                encoding: "utf8"
+            });
+        }
+        console.log(((response[0]) ? "+" : "-") + "\t" + response[1]);
     });
 };
