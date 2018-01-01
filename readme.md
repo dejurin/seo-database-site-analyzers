@@ -9,6 +9,7 @@
 | ------ | ------ |
 | {HOSTNAME} | example.com |
 | {PROTOCOL} | http:// |
+| {ANCHOR} | anchor |
 
 # GOV
 ```sh
