@@ -6,7 +6,8 @@ const tinyreq = require("tinyreq"),
     fs = require('fs'),
     path = require('path'),
     lines = fs.readFileSync(__dirname + '/list.txt', 'utf-8').split('\n').filter(Boolean);
-var _url = "http://example.com";
+
+var _url = "http://github.com";
 
 function _par(link, _hostname, callback) {
     tinyreq({
@@ -18,10 +19,10 @@ function _par(link, _hostname, callback) {
         let $ = cheerio.load(body);
         var done = false;
         var msg;
-        if($("a").length > 0) {
+        if ($("a").length > 0) {
             $("a").each(function(i, elem) {
-                if($(this).attr("href")) {
-                    if(url.parse($(this).attr("href")).hostname == _hostname) {
+                if ($(this).attr("href")) {
+                    if (url.parse($(this).attr("href")).hostname == _hostname) {
                         done = true;
                     }
                 }
@@ -32,14 +33,14 @@ function _par(link, _hostname, callback) {
         console.log(err);
     });
 };
-for(var i = 0; i < lines.length; i++) {
+for (var i = 0; i < lines.length; i++) {
     var _hostname = url.parse(_url).hostname;
     var _protocol = url.parse(_url).protocol;
     var _anchor = _hostname;
     var link = lines[i].replace("{PROTOCOL}", _protocol + "//").replace("{HOSTNAME}", _hostname).replace("{ANCHOR}", _anchor);
     // console.log("Get: " + link);
     var p = _par(link, _hostname, function(response) {
-        if(response[0]) {
+        if (response[0]) {
             fs.appendFileSync(__dirname + "/output.txt", response[1] + "\n", {
                 encoding: "utf8"
             });

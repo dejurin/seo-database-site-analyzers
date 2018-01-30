@@ -5,14 +5,12 @@
 - Доноры: чекеры, анализаторы, whois, gov, edu, redirect, external.
 - Рекомендуется: для молодых сайтов и для разбавки ссылочной массы.
 - dofollow, nofollow
-
 # List
 | pattern | value |
 | ------ | ------ |
 | {HOSTNAME} | example.com |
 | {PROTOCOL} | http:// |
 | {ANCHOR} | anchor |
-
 # GOV
 ```sh
 http://www.crh.noaa.gov/nwsexit.php?url={PROTOCOL}{HOSTNAME}
@@ -45,7 +43,6 @@ http://fwp.mt.gov/search?query=%22%3E%3Ca%20href=%22{PROTOCOL}{HOSTNAME}%22%3E{A
 http://kada.gov.my/en/pengumuman/-/asset_publisher/sA4N/content/aduan-pengguna?redirect={PROTOCOL}{HOSTNAME}
 ```
 # OTHER
-```sh
 https://www.ipaddress.com/websites/{HOSTNAME}
 http://{HOSTNAME}.webzz.us/
 http://buildwebhost.com/{HOSTNAME}
@@ -60,7 +57,6 @@ https://montools.com/stats/{HOSTNAME}
 http://whois.stsoftware.biz/{HOSTNAME}.htm
 http://www.devilart.name/?who={HOSTNAME}
 http://bt.acnow.net/{HOSTNAME}
-http://buildwebhost.com/{HOSTNAME}
 http://shutkeys.net/{HOSTNAME}
 https://trustscam.com/{HOSTNAME}
 http://{HOSTNAME}.urlss.org
@@ -118,10 +114,7 @@ http://big5.southcn.com/gate/big5/{HOSTNAME}
 https://www.inps.it/bussola/visualizzadoc.aspx?sExtURL={HOSTNAME}
 http://jigsaw.w3.org/css-validator/validator?uri={HOSTNAME}
 https://www.anquan.org/seccenter/search/{HOSTNAME}
-```
 # EDU
-```sh
 http://www.hudson.edu/frames.php?school=hcsd&url={PROTOCOL}{HOSTNAME}
 http://wber.monroe.edu/site/html/modules.php?op=modload&name=PostWrap&file=index&page={PROTOCOL}{HOSTNAME}
 http://staff.ozarks.edu/redirect.asp?url={PROTOCOL}{HOSTNAME}
-```
