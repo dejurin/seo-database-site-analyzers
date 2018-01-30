@@ -4,6 +4,8 @@
 - Метод: прогон вашего сайта по сайтам-анализаторам;
 - Доноры: чекеры, анализаторы, whois, gov, edu, redirect, external.
 - Рекомендуется: для молодых сайтов и для разбавки ссылочной массы.
+- dofollow, nofollow
+
 # List
 | pattern | value |
 | ------ | ------ |
@@ -44,6 +46,43 @@ http://kada.gov.my/en/pengumuman/-/asset_publisher/sA4N/content/aduan-pengguna?r
 ```
 # OTHER
 ```sh
+https://www.ipaddress.com/websites/{HOSTNAME}
+http://{HOSTNAME}.webzz.us/
+http://buildwebhost.com/{HOSTNAME}
+https://who.is/whois/{HOSTNAME}
+http://spyonweb.com/{HOSTNAME}
+http://newzz.biz/www/{HOSTNAME}
+http://whoownes.com/{HOSTNAME}
+https://site.ir24.org/www/{HOSTNAME}
+http://web.horde.ws/{HOSTNAME}
+http://whois.inpk.com/{HOSTNAME}
+https://montools.com/stats/{HOSTNAME}
+http://whois.stsoftware.biz/{HOSTNAME}.htm
+http://www.devilart.name/?who={HOSTNAME}
+http://bt.acnow.net/{HOSTNAME}
+http://buildwebhost.com/{HOSTNAME}
+http://shutkeys.net/{HOSTNAME}
+https://trustscam.com/{HOSTNAME}
+http://{HOSTNAME}.urlss.org
+http://www.dududu.net/{HOSTNAME}
+https://sur.ly/i/{HOSTNAME}
+http://netfisher.com/{HOSTNAME}
+https://trustscam.ru/{HOSTNAME}
+https://mainkeys.net/{HOSTNAME}
+http://ikeyword.net/{HOSTNAME}
+https://siterankdata.com/{HOSTNAME}
+https://www.lookip.net/{HOSTNAME}/
+http://{HOSTNAME}.urlaa.us
+http://website.informer.com/{HOSTNAME}
+http://advisor.wmtransfer.com/SiteDetails.aspx?url={HOSTNAME}&tab=feedback
+http://jp.ipdatainfo.com/www/{HOSTNAME}
+http://{HOSTNAME}.statout.com
+http://ip2geolocation.com/?ip={HOSTNAME}&x=0&y=0
+https://www.similarweb.com/website/{HOSTNAME}
+https://feedlink.me/{HOSTNAME}
+https://www.easycounter.com/report/{HOSTNAME}
+http://{HOSTNAME}.existsite.com
+http://weblisting.freetemplatespot.com/{HOSTNAME}
 http://www.checkdomain.com/cgi-bin/checkdomain.pl?domain={HOSTNAME}
 http://www.mmnt.org/cat/rp/{HOSTNAME}
 http://dnslookup.fr/{HOSTNAME}
