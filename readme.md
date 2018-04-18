@@ -15,6 +15,10 @@
 
 # GOV
 ```sh
+http://www.sanfordfl.gov/redirect.aspx?url={PROTOCOL}{HOSTNAME}
+https://www.uspto.gov/cgi-bin/exitconf/internet_exitconf.pl?target={PROTOCOL}{HOSTNAME}
+https://www.pcb.its.dot.gov/PageRedirect.aspx?redirectedurl={PROTOCOL}{HOSTNAME}
+https://transtats.bts.gov/exit.asp?url={PROTOCOL}{HOSTNAME}
 http://www.crh.noaa.gov/nwsexit.php?url={PROTOCOL}{HOSTNAME}
 http://water.weather.gov/ahps2/nwsexit.php?url={PROTOCOL}{HOSTNAME}
 http://www.weather.gov/cgi-bin/nwsexit.pl?url={PROTOCOL}{HOSTNAME}
@@ -46,6 +50,7 @@ http://kada.gov.my/en/pengumuman/-/asset_publisher/sA4N/content/aduan-pengguna?r
 ```
 # OTHER
 ```sh
+http://www.cityofcashmere.org/redirect.aspx?url={PROTOCOL}{HOSTNAME}
 https://www.ipaddress.com/websites/{HOSTNAME}
 http://{HOSTNAME}.webzz.us/
 http://buildwebhost.com/{HOSTNAME}
