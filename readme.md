@@ -122,6 +122,7 @@ http://big5.southcn.com/gate/big5/{HOSTNAME}
 https://www.inps.it/bussola/visualizzadoc.aspx?sExtURL={HOSTNAME}
 http://jigsaw.w3.org/css-validator/validator?uri={HOSTNAME}
 https://www.anquan.org/seccenter/search/{HOSTNAME}
+http://mevabety.com/r/r?url={PROTOCOL}{HOSTNAME}
 ```
 # EDU
 ```sh
