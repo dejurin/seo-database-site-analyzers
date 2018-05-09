@@ -266,7 +266,7 @@ http://www.hudson.edu/frames.php?school=hcsd&url={PROTOCOL}{HOSTNAME}
 http://wber.monroe.edu/site/html/modules.php?op=modload&name=PostWrap&file=index&page={PROTOCOL}{HOSTNAME}
 http://staff.ozarks.edu/redirect.asp?url={PROTOCOL}{HOSTNAME}
 http://www.online.uillinois.edu/catalog/clicks.asp?URL={PROTOCOL}{HOSTNAME}
-http://solar.physics.montana.edu/cgi-bin/eprint/search.pl?query=%3Ca%20href=%22{PROTOCOL}{HOSTNAME}
+http://solar.physics.montana.edu/cgi-bin/eprint/search.pl?query=%3Ca%20href=%22{PROTOCOL}{HOSTNAME}%22%3E{HOSTNAME}%3C/a%3E
 http://tede.est.edu.br/?a%5B%5D=%3Ca%20href%3D{PROTOCOL}{HOSTNAME}
 http://cowbell.cancan.cshl.edu/dispatch.cgi/show_file?example=SimpleForm&url={PROTOCOL}{HOSTNAME}&file=simple_form_entry.tt
 http://www.lhymss.edu.hk/photo/album3.asp?dir=0304mar2004adventureship&col=6&row=2&page=2&home={PROTOCOL}{HOSTNAME}
