@@ -41,7 +41,6 @@ http://rensselaerny.gov/departments/policedepartment/events/eventslist/15-02-13/
 http://www.nws.noaa.gov/climate/nwsexit.php?wfo=abq&url={PROTOCOL}{HOSTNAME}
 https://ushik.ahrq.gov/exitDisclaimer.jsp?system=hitsp&url={PROTOCOL}{HOSTNAME}
 https://www.foreignlaborcert.doleta.gov/leave-doleta.cfm?target={HOSTNAME}
-https://www.pcb.its.dot.gov/PageRedirect.aspx?redirectedurl={PROTOCOL}{HOSTNAME}
 https://www.broadbandmap.gov/external-redirect/{PROTOCOL}{HOSTNAME}
 http://www.broadbandmap.gov/external-redirect/{PROTOCOL}{HOSTNAME}
 http://www.wrasb.gov.tw/opennews/opennews01_detail.aspx?nno=2014062701&return={PROTOCOL}{HOSTNAME}
