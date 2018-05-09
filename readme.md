@@ -251,7 +251,7 @@ http://proxy1.library.jhu.edu/login?url={PROTOCOL}{HOSTNAME}
 http://www.lifescience.nuk.edu.tw/gallery/main.php?g2_view=core.UserAdmin&g2_subView=core.UserLogin&g2_return={PROTOCOL}{HOSTNAME}
 http://php.ccps.tp.edu.tw/uchome/link.php?url={PROTOCOL}{HOSTNAME}
 http://lodserver.iula.upf.edu/describe/?url={PROTOCOL}{HOSTNAME}
-http://proxy.lib.duke.edu/login?url=https://currencyrate.today/
+http://proxy.lib.duke.edu/login?url={PROTOCOL}{HOSTNAME}
 http://vod.jhjhs.tyc.edu.tw/phpinfo.php?a%5B%5D=%3Ca%20href%3D{PROTOCOL}{HOSTNAME}
 http://www.ric.edu/pages/link_out.aspx?target={PROTOCOL}{HOSTNAME}
 http://hobbes.nmsu.edu/h-search.php?key=%3Ca%20href={PROTOCOL}{HOSTNAME}
@@ -271,12 +271,11 @@ http://tede.est.edu.br/?a%5B%5D=%3Ca%20href%3D{PROTOCOL}{HOSTNAME}
 http://cowbell.cancan.cshl.edu/dispatch.cgi/show_file?example=SimpleForm&url={PROTOCOL}{HOSTNAME}&file=simple_form_entry.tt
 http://www.lhymss.edu.hk/photo/album3.asp?dir=0304mar2004adventureship&col=6&row=2&page=2&home={PROTOCOL}{HOSTNAME}
 http://press-pubs.uchicago.edu/cgi-bin/htsearch?restrict=&exclude=&format=builtin-long&method=and&config=founders&sort=score&words=%3Ca%20href=%22{PROTOCOL}{HOSTNAME}
-http://ckshweb.cksh.tp.edu.tw:8000/t.php?a%5B%5D=%3Ca+href%3Dhttps%3A%2F%2Fcurrencyrate.today%2F%3Eonline+currency+converter%3C%2Fa%3E
-http://smccd.edu/disclaimer/redirect.php?url=https://currencyrate.today
-https://login.libproxy.stcloudstate.edu/login?qurl=http%3a%2f%2fcurrencyrate.today
+http://ckshweb.cksh.tp.edu.tw:8000/t.php?a%5B%5D=%3Ca+href%3D{PROTOCOL}{HOSTNAME}
+http://smccd.edu/disclaimer/redirect.php?url={PROTOCOL}{HOSTNAME}
+https://login.libproxy.stcloudstate.edu/login?qurl={PROTOCOL}{HOSTNAME}
 http://ie.bsu.edu.ru/bitrix/redirect.php?event1=news_out&event2=2FiblockEDEEE5+E8EE1.doc&event3=EDECF6EE1.doc&goto={PROTOCOL}{HOSTNAME}
-http://graduados.umet.edu.ec/?option=com_k2&view=itemlist&task=user&id=177490
-https://auth.csu.edu.au/login/login.pl?url=http%3a%2f%2fcurrencyrate.today
+https://auth.csu.edu.au/login/login.pl?url={PROTOCOL}{HOSTNAME}
 http://www.stanthonys.edu.hk/redirect.php?id=149&url={PROTOCOL}{HOSTNAME}
 http://ckshweb.cksh.tp.edu.tw:8000/t.php?a%5B%5D=%3Ca%20href%3D{PROTOCOL}{HOSTNAME}
 http://www.bsaa.edu.ru/bitrix/rk.php?goto={PROTOCOL}{HOSTNAME}
