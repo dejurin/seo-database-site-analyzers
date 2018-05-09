@@ -255,7 +255,7 @@ http://proxy.lib.duke.edu/login?url=https://currencyrate.today/
 http://vod.jhjhs.tyc.edu.tw/phpinfo.php?a%5B%5D=%3Ca%20href%3D{PROTOCOL}{HOSTNAME}
 http://www.ric.edu/pages/link_out.aspx?target={PROTOCOL}{HOSTNAME}
 http://hobbes.nmsu.edu/h-search.php?key=%3Ca%20href={PROTOCOL}{HOSTNAME}
-http://text.rochester.edu/tt/{HOSTNAME}/finance
+http://text.rochester.edu/tt/{HOSTNAME}
 http://libproxy.newschool.edu/login?url={PROTOCOL}{HOSTNAME}
 http://scalar.usc.edu/works/growing-apart-a-political-history-of-american-inequality/external?link={PROTOCOL}{HOSTNAME}&prev=http%3A%2F%2Fscalar.usc.edu%2Fworks%2Fgrowing-apart-a-polit
 http://www.sfb606.kit.edu/index.pl/Haupt_Menu_Allgemein/extern/{PROTOCOL}{HOSTNAME}
